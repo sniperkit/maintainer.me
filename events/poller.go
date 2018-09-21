@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package events
 
 import (
@@ -5,10 +10,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Sirupsen/logrus"
-	"github.com/bradleyfalzon/maintainer.me/db"
 	"github.com/google/go-github/github"
 	"github.com/pkg/errors"
+	"github.com/sirupsen/logrus"
+
+	"github.com/sniperkit/snk.fork.bradleyfalzon-maintainer.me/db"
 )
 
 // githubBaseURL is the baseURL for github.com/google/go-github/github

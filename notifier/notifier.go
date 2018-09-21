@@ -1,10 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package notifier
 
 import (
 	"fmt"
 	"io"
 
-	"github.com/bradleyfalzon/maintainer.me/events"
+	"github.com/sniperkit/snk.fork.bradleyfalzon-maintainer.me/events"
 )
 
 // Writer is a Notifier that writes the event to the supplied writer.

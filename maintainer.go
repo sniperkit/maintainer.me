@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package maintainer
 
 import (
@@ -7,16 +12,16 @@ import (
 	"os"
 	"path/filepath"
 
-	"golang.org/x/oauth2"
-	ghoauth "golang.org/x/oauth2/github"
-
-	"github.com/Sirupsen/logrus"
-	"github.com/bradleyfalzon/maintainer.me/db"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/gregjones/httpcache"
 	"github.com/gregjones/httpcache/diskcache"
 	"github.com/pkg/errors"
 	migrate "github.com/rubenv/sql-migrate"
+	"github.com/sirupsen/logrus"
+	"golang.org/x/oauth2"
+	ghoauth "golang.org/x/oauth2/github"
+
+	"github.com/sniperkit/snk.fork.bradleyfalzon-maintainer.me/db"
 )
 
 // Maintainer is a configuration struct for the maintainer.me application.

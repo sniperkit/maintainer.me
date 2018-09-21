@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
@@ -6,10 +11,11 @@ import (
 	"os"
 	"time"
 
-	maintainer "github.com/bradleyfalzon/maintainer.me"
-	"github.com/bradleyfalzon/maintainer.me/events"
-	"github.com/bradleyfalzon/maintainer.me/notifier"
 	"github.com/joho/godotenv"
+
+	maintainer "github.com/sniperkit/snk.fork.bradleyfalzon-maintainer.me"
+	"github.com/sniperkit/snk.fork.bradleyfalzon-maintainer.me/events"
+	"github.com/sniperkit/snk.fork.bradleyfalzon-maintainer.me/notifier"
 )
 
 func main() {

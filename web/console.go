@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package web
 
 import (
@@ -9,16 +14,16 @@ import (
 	"strconv"
 	"time"
 
-	"golang.org/x/oauth2"
-
-	"github.com/Sirupsen/logrus"
 	"github.com/alexedwards/scs/session"
-	"github.com/bradleyfalzon/maintainer.me/db"
-	"github.com/bradleyfalzon/maintainer.me/events"
 	"github.com/go-chi/chi"
 	"github.com/google/go-github/github"
 	"github.com/google/uuid"
 	schema "github.com/gorilla/Schema"
+	"github.com/sirupsen/logrus"
+	"golang.org/x/oauth2"
+
+	"github.com/sniperkit/snk.fork.bradleyfalzon-maintainer.me/db"
+	"github.com/sniperkit/snk.fork.bradleyfalzon-maintainer.me/events"
 )
 
 type Console struct {

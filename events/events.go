@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package events
 
 import (
@@ -6,10 +11,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Sirupsen/logrus"
-	"github.com/bradleyfalzon/maintainer.me/db"
 	"github.com/google/go-github/github"
 	"github.com/pkg/errors"
+	"github.com/sirupsen/logrus"
+
+	"github.com/sniperkit/snk.fork.bradleyfalzon-maintainer.me/db"
 )
 
 type Events []*Event

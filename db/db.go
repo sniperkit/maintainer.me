@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package db
 
 import (
@@ -6,12 +11,11 @@ import (
 	"encoding/json"
 	"time"
 
-	"golang.org/x/oauth2"
-
 	"github.com/bradleyfalzon/ghfilter"
 	"github.com/google/go-github/github"
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"
+	"golang.org/x/oauth2"
 )
 
 // DB represents a database.

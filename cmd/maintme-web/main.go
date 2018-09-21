@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
@@ -8,11 +13,12 @@ import (
 
 	"github.com/alexedwards/scs/engine/mysqlstore"
 	"github.com/alexedwards/scs/session"
-	maintainer "github.com/bradleyfalzon/maintainer.me"
-	"github.com/bradleyfalzon/maintainer.me/web"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 	"github.com/joho/godotenv"
+
+	maintainer "github.com/sniperkit/snk.fork.bradleyfalzon-maintainer.me"
+	"github.com/sniperkit/snk.fork.bradleyfalzon-maintainer.me/web"
 )
 
 func main() {
